@@ -2,7 +2,7 @@ import uuid
 
 from temporalio import activity
 from temporalio.client import Client
-from temporalio.worker import Worker, Replayer
+from temporalio.worker import Replayer, Worker
 
 from hello.hello_activity import (
     ComposeGreetingInput,
